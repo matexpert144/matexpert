@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CSS/color.css">
+	<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/funciones2.js"></script>
+	<title>Proyecto</title>
+</head>
+<body>
+
+
+	<div class="circulo">
+			<div class="ini">Inicio</div>
+			<div class="rosaR"></div>
+			<div class="blanco"></div>
+			<div class="bum">modo oscuro</div>
+	</div>
+	<div class="bajo">
+		dfsssdgsg
+	</div>
+	<div class="topmenu">
+			<h2><div class="ATM pgalgebra">Algebra</div></h2>
+			<h2><div class="ATM pggeometria">Geometria</div></h2>
+			<h2><div class="ATM pgcalculo">Cálculo</div></h2>
+			<h2><div class="ATM pgconver">Conversiones</div></h2>
+			<h2><div class="ATM pgcalculadora">Calculadora</div></h2>
+
+	</div>
+	
+
+	<center><h1 class="titu"><span class="producto">Algebra</span></h1></center>
+
+	<section class="container">
+	<!--inicia el contenedor principal-->
+	
+		<div class="panel algebra">
+			<div class="KAR todoalg">
+				<div class="ALG suma">Suma</div>
+				<div class="ALG resta">Resta</div>
+				<div class="ALG multi">Multiplicacion</div>
+				<div class="ALG division">Division</div>
+				<div class="ALG orden">Orden de las operaciones</div>
+			</div>
+		</div>
+		
+
+		<div class="panel geometria">
+			<div class="KAR todogeo">
+				<div class="GEO punto">Punto</div>
+				<div class="GEO recta">Recta</div>
+				<div class="GEO semirecta">Semi recta</div>
+				<div class="GEO seg">Segmento de recta</div>
+				<div class="GEO plano">Plano</div>
+			</div>
+
+		</div>
+
+		<div class="panel calculo">
+			<div class="KAR todocal">
+				<div class="CAL lim">Limites</div>
+				<div class="CAL fun">Funciones</div>
+				<div class="CAL der">Derivadas</div>
+				<div class="CAL fac">Factorizacion</div>
+			</div>
+		</div>
+
+		<div class="panel conversiones">	
+				<div class="KAR todoconver">
+					<div class="CON lim">Limites</div>
+					<div class="CON fun">Funciones</div>
+					<div class="CON der">Derivadas</div>
+					<div class="CON fac">Factorizacion</div>
+				</div>
+		</div>
+
+		<div class="inicio">
+			<div class="texini">
+				<p><center><h2><i>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía"</i></h2></center></p>
+
+				<p><center><h2><i>Isócrates</i></h2></center></p>	
+			</div>
+		<img class= "isocrates" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnL1f4Lemctn5vWeqNq3v6wE-Tm2yj7-V8v9ttWJAv7K5ikGdb">
+		</div>
+
+		
+		<div class="IN infosuma">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								 Llamamos suma a la acción de añadir, juntar o agregar elementos, cuando realizamos esta acción estamos uniendo cantidades o conjuntos y para ello siempre debe haber un mínimo de dos elementos
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<center> <img src="https://image.slidesharecdn.com/presentacin2-141106101932-conversion-gate02/75/ejemplos-de-sumas-para-nios-2-2048.jpg?cb=1667682146"> </center>
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								Ejercicios
+							<input id="num1"><br>
+							<input id="num2">
+							<button type="button" onclick="mysuma()">sumar</button>
+							<p id="sumando"></p>
+			</div>
+
+			</div>
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+		<div class="IN inforesta">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								La resta o sustracción es una operación matemática que consiste en sacar, quitar, reducir o separar algo de un todo.
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSILe0v-RLF-j42qgPlEC5ZRXfK7VPyoKFl86_xnIOR1-NHC6nSrB6y_doGMoRcnMLIAM&usqp=CAU">
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								Ejercicios
+								<input id="num3"><br>
+								<input id="num4">
+								<button type="button" onclick="myFunction()">Resultado</button>
+								<p id="resta"></p>
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+		<div class="IN infomulti">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								Operación aritmética que consiste en calcular el resultado (producto) de sumar un mismo número (multiplicando) tantas veces como indica otro número (multiplicador); se representa con los signos · o ×.
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSHIXhBiljJUds408pQluRQJNshv2wHwNQiA&usqp=CAU">
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								ejercicio
+
+								<form id="multiplicar">
+  <input type="text" id="multiplicando"  onChange="multiplicar();"> X
+  <input type="text" id="multiplicador"  onChange="multiplicar();"> =
+  <input type="text" id="resultado">
+</form>
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+		<div class="IN infodivision">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								¿Qué es que es la división?
+								Definimos la división como aquella operación matemática que consiste en separar una cantidad en partes iguales, es decir, se trata de realizar una distribución equitativa del objeto o cosa que se quiere repartir.
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7L9n5H8JVNtNSP-It_5_jdvqDKuy9DjQJzvoEH0pWf6z_G17uB2HUVKVHgJZdy3VowW8&usqp=CAU">
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								Ejercicio
+									<form id="multiplicar">
+  <input type="text" id="dividiendo" value=0 onChange="dividir();"> /
+  <input type="text" id="divisor" value=0 onChange="dividir();"> =
+  <input type="text" id="resultadodiv">
+</form>
+
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+		<div class="IN infoorden">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								El orden de las operaciones es una regla que indica la secuencia correcta de pasos para evaluar una expresión matemática. Podemos recordar el orden usando PEMDSR: Paréntesis, Exponentes, Multiplicación y División (de izquierda a derecha), Suma y Resta (de izquierda a derecha).
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<img src="https://image.slidesharecdn.com/ordendeoperaciones2-140627134643-phpapp01/85/orden-de-operaciones-8-320.jpg?cb=1668303942">
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								ejercicios
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+
+		<!---geometria-->
+		<div class="IN infopunto">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								Punto es el objeto fundamental en geometría, el punto representa solo posición y no tiene dimensión, es decir, largo cero, ancho cero y altura cero. Se representan por letras mayúsculas. Recta tiene solo longitud, no tiene ancho ni altura ni grosor.
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmrfjPgYyFcrQ2YHPBOdMKkH-CjaHJNGsXoQ&usqp=CAU">
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								ejercicios
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+		<div class="IN inforecta">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								Es una línea de puntos, sin curvas ni ángulos, que no tiene principio ni fin. Es cada una de las dos partes en que un punto divide una recta.
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj4zu8IKA0VpDM9HncRiVyMFWtwyM9SCh7oApm1Y1aeCyKPGc2RvLHDjXIhwE7ftYmxpY&usqp=CAU">
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								ejercicio
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+		<div class="IN infosemirecta">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								Es cada una de las dos partes en que un punto divide una recta. El punto es el origen de las dos semirrectas.
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbkgplJlajnnYEsPIQbJ__e75EhdDJ1pKb2JMqMuNuY4Grx5Wr5f9XV2Q8h2cePG22aMQ&usqp=CAU">
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								ejercicio
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+		<div class="IN infoseg">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								Es la parte de recta limitada entre dos puntos. Dichos puntos son los extremos del segmento.
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<img src="https://assets.serlo.org/5f74b244642b0_9672e70772c332ae80ccd6db04d799e06ab64cf8.png">
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								ejercicio
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+		<div class="IN infoplano">
+				<div class="AMG">
+					<center>	
+						<p>
+							<b>
+								un plano es un objeto ideal que solo posee dos dimensiones, y contiene infinitos puntos y rectas; es un concepto fundamental de la geometría junto con el punto y la recta.
+							</b>
+						</p>
+					</center>	
+				</div>
+
+				<div class="AMG">
+					<p>
+						<center>
+							<b>
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqtkkzZ_pNdszmEPLqiOpy1509DTSXyqwK1Ky6NhrzIopKEkMrGw6mv6iV8Qah4jo-cxw&usqp=CAU">
+							</b>
+						</center>
+					</p>
+				</div>
+
+				<div class="AMG">
+					<center>
+						<p>
+							<b>
+								ejercicio
+							</b>
+						</p>
+					</center>
+				</div>
+		</div>
+
+
+		<div class="IN KAR todocalculadora">
+		<title>Calculadora con JavaScript</title>
+</head>
+<body onload="init();">
+<table class="calculadora">
+<tr>
+  <td colspan="4"><span id="resultado"></span></td>
+</tr>
+<tr>
+  <td><button id="siete">7</button></td><td><button id="ocho">8</button></td><td><button id="nueve">9</button></td><td><button id="division">/</button></td>
+</tr>
+<tr>
+  <td><button id="cuatro">4</button></td><td><button id="cinco">5</button></td><td><button id="seis">6</button></td><td><button id="multiplicacion">x</button></td>
+</tr>
+<tr>
+  <td><button id="uno">1</button></td><td><button id="dos">2</button></td><td><button id="tres">3</button></td><td><button id="resta">-</button></td>
+</tr>
+<tr>
+  <td><button id="igual">=</button></td><td><button id="reset">C</button></td><td><button id="cero">0</button></td><td><button id="suma">+</button></td>
+</tr>
+</table>
+</div>
+
+		<div class="comentarios">
+		
+			<div class="alert alert-light"><h3>Comentarios</h3></div>
+
+			<div id="result"></div>
+	 
+	        <form>
+		          <div class="form-group">
+								<label>Nombre</label>
+								<input class="form-control" type="text"  id="name">
+							</div>
+		          <div class="form-group">
+								<label>Comentario</label>
+								<textarea id="comment" class="form-control"></textarea>
+								</label>
+							</div>
+							<button type="button" class="btn btn-primary" onclick="commentBox();">Enviar</button>
+	        </form>
+    </div>
+ 
+	</section>
+</body>
+</html>
+
+
+
