@@ -355,6 +355,19 @@ background: #BDC3C7;
 {
 	background: white;
 }
+.funcion, .derivada, .factorizacion
+{
+	background-color: #BDC3C7;
+	border-radius: 50px;
+	width: 400px;
+	height: 400px;
+	margin: 10px 10px 50px 10px;
+	padding: 10px;
+	display: inline-block;
+	flex-wrap: wrap;
+	justify-content: center;
+	vertical-align: top;
+}
 
 
 
