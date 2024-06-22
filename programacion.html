@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="bootstrap5/css/bootstrap.min.css">
+
+    <title>👑 MATEXPERT- Programación</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<style>
+    
+    body
+    {
+        background: #D6EAF8;
+    }
+
+</style>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul style="background: #0333BB;" class="col-xs-2 navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                
+                <div class="sidebar-brand-text mx-3"><i><h4><b>MATEXPERT</b></h4></i></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Inicio -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    ✯
+                    <span>Inicio</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Materias
+            </div>
+
+            <!-- Nav Item - Menu Algebra-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAlgebra"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    ✧
+                    <span>Algebra</span>
+                </a>
+                <div id="collapseAlgebra" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Componentes:</h6>
+                        <a class="collapse-item" href="algebra.html">Temas</a>
+                        <a class="collapse-item" href="https://quizizz.com/embed/quiz/662bca81eee8e741380cc810">Evaluate</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Menu Geometria-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseGeometria"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                    ✧
+                    <span>Geometría</span>
+                </a>
+                <div id="collapseGeometria" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Componentes:</h6>
+                        <a class="collapse-item" href="geometria.html">Temas</a>
+                        <a class="collapse-item" href="https://quizizz.com/embed/quiz/664f787ed15b1c17b9cdbd2f">Evaluate</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Menu Calculo-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCalculo"
+                    aria-expanded="true" aria-controls="collapseCalculo">
+                    ✧
+                    <span>Cálculo</span>
+                </a>
+                <div id="collapseCalculo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Componentes:</h6>
+                        <a class="collapse-item" href="calculo.html">Temas</a>
+                        <a class="collapse-item" href="https://quizizz.com/embed/quiz/664f9293c0821071f9ac60b2">Evaluate</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Menu Programacion-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProgramacion"
+                    aria-expanded="true" aria-controls="collapseProgramacion">
+                    ✧
+                    <span>Programación</span>
+                </a>
+                <div id="collapseProgramacion" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Componentes:</h6>
+                        <a class="collapse-item" href="programacion.html">Temas</a>
+                        <a class="collapse-item" href="https://quizizz.com/embed/quiz/666e4b9e9f81637b8f94b115">Evaluate</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Acerca de
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDesarrolladores"
+                    aria-expanded="true" aria-controls="collapseDesarrolladores">
+                    ✯
+                    <span>Desarrolladores</span>
+                </a>
+                <div id="collapseDesarrolladores" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Creado por:</h6>
+                        <a class="collapse-item" href="desarrolladoras.html">Desarrolladoras</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div style="background: url(https://img.freepik.com/vector-premium/teoria-matematica-formula-matematica-simbolos-escritos-mano-aislados-fondo-blanco-formulas-dibujadas-mano-utilizadas-educacion-escolar-papeleo-ilustracion-vectorial_476325-956.jpg);" id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+<div id="content">
+
+                <!-- Topbar -->
+                <nav style="background: #BFD0FF;" class="navbar navbar-expand topbar mb-4 static-top shadow">
+
+                    <div style="color: #0333BB;" class="mb-4 pt-4" class="sidebar-brand-text mx-3"><i><h3><b>Programación</b></h3></i></div>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Earnings (Monthly) Card Example -->
+                        <center>
+                            
+                            <div class="col-xl-12 col-md-6 mb-4">
+                            <div class="card border-primary border-5 h-200 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="h5 mb-0 font-weight-bold text-primary">
+                                                ¿Qué es la programación?</div>
+                                            <div style="text-align: justify;" class="text-s font-weight-bold text-primary-100 mb-1"><p>La programación se refiere a la acción de crear programas o aplicaciones a través del desarrollo de un código fuente, que se basa en el conjunto de instrucciones que sigue el ordenador para ejecutar un programa.</p>
+                                            <p>La acción de crear programas o aplicaciones a través del desarrollo de un código fuente, que se basa en el conjunto de instrucciones que sigue el ordenador para ejecutar un programa.</p>
+                                            <p>La programación es lo que permite que un ordenador funcione y realice las tareas que el usuario solicita.</p></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </center>
+
+                    <!-- Page Heading -->
+                    <center>
+                    <div class="accordion col-9" id="accordionExample">
+
+                        <div style="background: #BFD0FF; color: #0333BB;" class="accordion-item pt-2 ps-2">
+                            <h4 class="accordion-header">
+                                Historia de la programación
+                            </h4>
+                        </div>
+
+                      <div style="background: #BFD0FF;" class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button style="background: #BFD0FF;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Comienzos
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div style="text-align: justify;" class="accordion-body">
+                            Los comienzos del desarrollo de la programación informática coinciden con la aparición de las primeras computadoras en la segunda mitad del siglo XX.
+                          </div>
+                          
+                        </div>
+                        
+                      </div>
+
+
+                      <div style="background: #BFD0FF;" class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button style="background: #BFD0FF;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Lenguaje máquina
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div style="text-align: justify;" class="accordion-body">
+                            En este primer período se utilizaban lenguajes máquina muy básicos y limitados basados en el sistema binario (uso de los números 0 y 1 en distintas combinaciones) que es el lenguaje que los ordenadores reconocen, por lo que aún hoy todo lenguaje es convertido a este. Fue reemplazado, ya que resultaba una forma de programación tediosa y difícil.
+                          </div>
+                          
+                        </div>
+                      </div>
+
+
+                      <div style="background: #BFD0FF;" class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button style="background: #BFD0FF;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Lenguaje ensamblador
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div style="text-align: justify;" class="accordion-body">
+                            Más tarde comenzaron a surgir lenguajes que hacían uso de códigos de palabras. Se utilizaban palabras simples, mnemotécnicas y abreviaturas que tenían su correlativo y eran traducidas al código máquina. El lenguaje ensamblador fue incorporado porque resultaba más fácil de recordar y realizar por el usuario que el código máquina.
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                      <div style="background: #BFD0FF;" class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button style="background: #BFD0FF;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Lenguaje de alto nivel
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div style="text-align: justify;" class="accordion-body">
+                            A finales de la década del 50 surgió el Fortran, un lenguaje de programación desarrollado por IBM que dio inicio a la aparición de lenguajes basados en conjuntos de algoritmos mucho más complejos. Estos lenguajes se adaptaban a distintos ordenadores y eran traducidos por medio de un software al lenguaje de máquina.
+                          </div>
+                              
+                        </div>
+                      </div>
+
+                    </div>
+                    </center>
+
+                </div>
+                <!-- /.container-fluid -->
+
+<!-- Earnings (Monthly) Card Example -->
+                        <center>
+                            
+                            <div class="col-xl-12 col-md-6 mb-4 mt-5">
+                            <div class="card border-primary border-5 h-200 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="h5 mb-0 font-weight-bold text-primary">
+                                                3 tipos principales de lenguajes de programación.
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </center>
+
+                <!-- Illustrations -->
+<div class="row justify-content-evenly">
+
+                            <div class="card shadow col-3 m-1  border-primary border-2">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">HTML</h6>
+                                </div>
+                                <div class="card-body">
+                                    
+                                    <!-- Page Heading -->
+
+                    <div class="accordion" id="accordionExample">
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            ¿Qué es HTML?
+                          </button>
+                        </h2>
+                        <div style="text-align: justify;" id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>Su acrónimo en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado utilizado en la creación de páginas web. Este estándar sirve de referencia del software que interactúa con la elaboración de páginas web en sus diferentes versiones. las etiquetas más comunes que se utilizan son las permite incluir imágenes , gráficos, sonidos, vídeos</p>
+
+                            <p>La estructura HTML de una página web se compone de las etiquetas < html>, que indica el comienzo de la página; < head>, que contiene información más descriptiva sobre el sitio; y < body>, que conforma todos los elementos visibles de la página.</p>
+                          </div>
+                          
+                        </div>
+                        
+                      </div>
+
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Apoyos complementarios
+                          </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div style="text-align: justify;" class="accordion-body">
+                            <p>◈<a href="https://www.youtube.com/watch?v=10GHKjgQIR0">¿Qué es HTML?</a></p>
+
+                            <p>◈<a href="https://www.youtube.com/watch?v=rbuYtrNUxg4">Curso HTML</a></p>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                <!-- Illustrations -->
+                            
+                                
+                                <div class="card shadow col-3 m-1  border-primary border-2">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">CSS</h6>
+                                </div>
+                                <div class="card-body">
+                                    
+                                    <!-- Page Heading -->
+
+                    <div class="accordion" id="accordionExample">
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            ¿Qué es css?
+                          </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div style="text-align: justify;" class="accordion-body">
+                            <p>CSS es un lenguaje de diseño web que permite dotar de estilo gráfico a las páginas escritas en HTML. Sus siglas significan Cascading Style Sheets, que en español se traduciría como “hojas de estilo en cascada”. Actualmente, su uso en desarrollo web es generalizado, pues el 97% de las webs emplean este lenguaje.</p>
+
+                            <p>Las hojas de estilo se guardan en un archivo independiente y se referencian en la cabecera de las páginas HTML, aunque también se puede incluir código CSS dentro del mismo HTML. Los navegadores web interpretan los archivos CSS de forma de cascada (de arriba hacia abajo).</p>
+                          </div>
+                          
+                        </div>
+                        
+                      </div>
+
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            Historia de CSS
+                          </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div style="text-align: justify;" class="accordion-body">
+                            En este primer período se utilizaban lenguajes máquina muy básicos y limitados basados en el sistema binario (uso de los números 0 y 1 en distintas combinaciones) que es el lenguaje que los ordenadores reconocen, por lo que aún hoy todo lenguaje es convertido a este. Fue reemplazado, ya que resultaba una forma de programación tediosa y difícil.
+                          </div>
+                          
+                        </div>
+                      </div>
+
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            Propiedades de CSS
+                          </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>Cada elemento declarado en la hoja de estilo sigue una misma estructura. Las propiedades a modificar se encierran entre llaves { } y se declaran haciendo referencia a su nombre de atributo. Después se deben escribir el símbolo dos puntos (:) y seguidamente el valor asignado. Cada atributo se cierra con punto y coma (;).</p>
+
+                            <p>Para entenderlo mejor veamos un ejemplo en el que se modifica el estilo de texto de un párrafo. La “P” hace referencia al tipo de elemento, se abre una llave y se modifican los atributos color, que será de color rojo, y el tamaño, que será de 20 px. Se añade un punto y coma para cerrar la instrucción y se cierra la llave para finalizar la declaración. </p>
+                            <p>P {</p>
+                            <p>color: red;</p>
+                            <p>font-size:20px;</p>
+                            <p>}</p>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            Apoyos visuales
+                          </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>◈<a href="https://www.youtube.com/watch?v=8cSo0ijtkzU">¿Qué es CSS?</a></p>
+
+                            <p>◈<a href="https://www.youtube.com/watch?v=OWKXEJN67FE">Curso de CSS</a></p>
+                          </div>
+                              
+                        </div>
+                      </div>
+
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+                                    
+                                    
+                                </div>
+    
+
+                            <!-- Illustrations -->
+                            
+                                
+                                <div class="card shadow col-3 m-1  border-primary border-2">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">JavaScript</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="accordion" id="accordionExample">
+                                    
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                            ¿Qué es JavaScript?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div style="text-align: justify;" class="accordion-body">
+                                            <p>Es un lenguaje de programación diseñado en un principio para añadir interactividad a las páginas webs y crear aplicaciones web. A pesar de la similitud en el nombre, no está relacionado con Java. Se emplea en el desarrollo de páginas web para tareas como cambiar automáticamente la fecha de una página, hacer que una página aparezca en una ventana emergente al hacer clic en un enlace o que un texto o imagen cambien al pasar el ratón por encima. También suele emplearse para hacer encuestas y formularios. Se ejecuta en el ordenador del visitante a la web, por lo que no requiere descargas constantes desde el sitio web.</p>
+
+                                            <p>Es un lenguaje de alto nivel, dinámico e interpretado. Se define como orientado a objetos, basado en prototipos, imperativo y débilmente tipado. Junto al HTML y a CSS, es una de las tres tecnologías esenciales en la producción mundial de webs: la mayoría de los sitios web la emplean y es compatible con todos los navegadores modernos sin necesidad de plug-ins. JavaScript posee una API para trabajar con texto, arrays, fechas y expresiones regulares.</p>
+
+                                            <p>A pesar de algunos nombres y similitudes en la biblioteca estándar, JavaScript y Java no poseen ninguna relación y tienen semánticas muy diferentes. La sintaxis de JavaScript en realidad se deriva de C, mientras que su semántica y el diseño están influenciados por los lenguajes de programación Self y Scheme.</p>
+                                          </div>
+                                              
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                            Apoyos visuales
+                                          </button>
+                                        </h2>
+                                        <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <p>◈<a href="https://www.youtube.com/watch?v=x5YUu0eUc8s">¿Qué es JavaScript?</a></p>
+
+                                            <p>◈<a href="https://www.youtube.com/watch?v=RqQ1d1qEWlE">Curso de JavaScript</a></p>
+                                          </div>
+                                              
+                                        </div>
+                                      </div>
+
+                                  </div>
+
+
+
+
+                                    
+                                </div>
+                            </div>
+
+</div>
+
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span> &copy; MATEXPERT  2024</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
